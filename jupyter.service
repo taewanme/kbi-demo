@@ -1,0 +1,17 @@
+[Unit]
+Description=Jupyter Lab Server
+
+[Service]
+Type=simple
+PIDFile=/run/jupyter.pid
+User=ec2-user
+Environment="PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+ExecStart=/home/ec2-user/.local/bin/jupyter-lab --config=/home/ec2-user/.jupyter/jupyter_server_config.py
+WorkingDirectory=/home/ec2-user
+Restart=always
+RestartSec=10
+StandardOutput=file:/home/ec2-user/.jupyter/jupyter.service.log
+StandardError=file:/home/ec2-user/.jupyter/jupyter.service.log
+
+[Install]
+WantedBy=multi-user.target

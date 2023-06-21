@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/taewanme/kbi-demo/main/zookeeper-base.cfg
 mv ./zookeeper-base.cfg ./zookeeper/conf/zoo.cfg
 ```
 
-## Zookeeper 설정 @zoo02
+## Zookeeper 설정 @zoo03
 
 ```
 mkdir -p ~/data/zookeeper

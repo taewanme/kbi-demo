@@ -3,7 +3,7 @@
 ## Kafka 다운로드 & 설정
 
 ```
-wget https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz
+wget https://archive.apache.org/dist/kafka/3.2.0/kafka_2.13-3.2.0.tgz
 tar -xf ./kafka_2.13-3.2.0.tgz
 ln -s ./kafka_2.13-3.2.0 ./kafka
 rm ./kafka_2.13-3.2.0.tgz

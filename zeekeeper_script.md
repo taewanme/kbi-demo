@@ -1,6 +1,6 @@
 # Zookeeper 설치 스크립트 
 
-## Zookeeper 다운로드 & 설치
+## 서버 공통 작업: Zookeeper 다운로드 & 설치
 
 ```
 wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1-bin.tar.gz

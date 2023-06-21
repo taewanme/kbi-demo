@@ -20,7 +20,7 @@ log.dir=/home/opc/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
-### Kafk01 실생
+### Kafk01 실행
 
 ```
 nohup ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties > broker.log &
@@ -36,7 +36,7 @@ log.dir=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
-### Kafk02 실생
+### Kafk02 실행
 
 ```
 nohup ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties > broker.log &
@@ -52,7 +52,7 @@ log.dir=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
-### Kafk03 실생
+### Kafk03 실행
 
 ```
 nohup ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties > broker.log &

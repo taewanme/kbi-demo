@@ -14,5 +14,24 @@ rm ./apache-zookeeper-3.8.1-bin.tar.gz
 ```
 mkdir -p ~/data/zookeeper
 echo 1 > ~/data/zookeeper/myid
-cp ./zookeeper/conf/zoo_sample.cfg ./zookeeper/conf/zoo.cfg
+wget https://raw.githubusercontent.com/taewanme/kbi-demo/main/zookeeper-base.cfg
+mv ./zookeeper-base.cfg ./zookeeper/conf/zoo.cfg
+```
+
+## Zookeeper 설정 @zoo02
+
+```
+mkdir -p ~/data/zookeeper
+echo 2 > ~/data/zookeeper/myid
+wget https://raw.githubusercontent.com/taewanme/kbi-demo/main/zookeeper-base.cfg
+mv ./zookeeper-base.cfg ./zookeeper/conf/zoo.cfg
+```
+
+## Zookeeper 설정 @zoo02
+
+```
+mkdir -p ~/data/zookeeper
+echo 3 > ~/data/zookeeper/myid
+wget https://raw.githubusercontent.com/taewanme/kbi-demo/main/zookeeper-base.cfg
+mv ./zookeeper-base.cfg ./zookeeper/conf/zoo.cfg
 ```

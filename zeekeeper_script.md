@@ -3,10 +3,10 @@
 ## 서버 공통 작업: Zookeeper 다운로드 & 설치
 
 ```
-wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1-bin.tar.gz
-tar -xf ./apache-zookeeper-3.8.1-bin.tar.gz 
-ln -s ./apache-zookeeper-3.8.1-bin ./zookeeper 
-rm ./apache-zookeeper-3.8.1-bin.tar.gz
+wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.4/apache-zookeeper-3.8.4-bin.tar.gz
+tar -xf ./apache-zookeeper-3.8.4-bin.tar.gz 
+ln -s ./apache-zookeeper-3.8.4-bin ./zookeeper 
+rm ./apache-zookeeper-3.8.4-bin.tar.gz
 ```
 
 ## Zookeeper 설정 @zoo01

@@ -16,7 +16,7 @@ mkdir -p ./data/broker
 
 ```
 broker.id=1
-log.dir=/home/opc/data/borker
+log.dir=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 

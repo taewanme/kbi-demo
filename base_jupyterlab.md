@@ -4,7 +4,7 @@
 ```
 sudo yum install python3 python3-pip -y
 pip3 install jupyterlab
-jupyter lab —generate-config
+jupyter lab —-generate-config
 
 ```
 

@@ -11,12 +11,13 @@ mkdir -p ./data/broker
 ```
 
 ## kafka01 설정
-
+다음 설정 파일을 오픈하고 편집합니다. 
 - /home/ec2-user/kafka/config/server.properties 
 
+다음 각 설정을 파일에서 찾아서 다음 형식으로 수정합니다. 
 ```
 broker.id=1
-log.dir=/home/ec2-user/data/borker
+log.dirs=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
@@ -27,12 +28,14 @@ nohup ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties > broke
 ```
 
 ## kafka02 설정
-
+다음 설정 파일을 오픈하고 편집합니다. 
 - /home/ec2-user/kafka/config/server.properties 
+
+다음 각 설정을 파일에서 찾아서 다음 형식으로 수정합니다. 
 
 ```
 broker.id=2
-log.dir=/home/ec2-user/data/borker
+log.dirs=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
@@ -43,12 +46,14 @@ nohup ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties > broke
 ```
 
 ## kafka03 설정
-
+다음 설정 파일을 오픈하고 편집합니다. 
 - /home/ec2-user/kafka/config/server.properties 
+
+다음 각 설정을 파일에서 찾아서 다음 형식으로 수정합니다. 
 
 ```
 broker.id=3
-log.dir=/home/ec2-user/data/borker
+log.dirs=/home/ec2-user/data/borker
 zookeeper.connect=<ZOO01.PRIVATE_ID>:2181,<ZOO02.PRIVATE_ID>:2181,<ZOO03.PRIVATE_ID>:2181
 ```
 
